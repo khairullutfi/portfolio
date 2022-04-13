@@ -1,0 +1,35 @@
+.carousel-container {
+  background: #185c91;
+  width: 1440px;
+  height: 500px;
+  display: block;
+}
+
+.halaman-utama {
+  .text-judul {
+    font-weight: 600;
+    color: #14213c;
+  }
+
+  .text-isi {
+    color: #a9adb4;
+  }
+
+  .btn-info-talim {
+    background: #26a566;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffff;
+  }
+
+  .btn-radio {
+    border: 1px solid #49495d;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .img-mesjid {
+    width: 609px;
+    height: 500px;
+  }
+}

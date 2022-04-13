@@ -1,0 +1,53 @@
+.santri-form {
+    width: 1239px;
+    height: 257px;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url("/images/santri.png");
+    margin-bottom: 20px;
+
+    h5 {
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 44px;
+        color: #E2EBE2;
+        width: 593px;
+        height: 88px;
+        margin-top: 20px;
+        margin-left: 10px;
+
+        @include media-breakpoint-down(md) {
+            width: 480px;
+            height: 88px;
+            margin-bottom: 50px;
+        }
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        width: 593px;
+        height: 42px;
+        color: #B7CBB7;
+        margin-left: 10px;
+
+        @include media-breakpoint-down(md) {
+            width: 480px;
+            height: 42px;
+        }
+    }
+
+    .btn-primary-key {
+        background: #FFFFFF;
+        border-radius: 50px;
+        text-align: center;
+        color: #26A566;
+        margin-left: 10px;
+        margin-top: 20px;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 0px !important;
+        }
+    }
+}
